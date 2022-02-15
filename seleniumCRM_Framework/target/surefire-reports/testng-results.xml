@@ -1,35 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="174" started-at="2022-01-25T17:02:20 IST" finished-at="2022-01-25T17:02:20 IST">
+  <suite name="Suite" duration-ms="47" started-at="2022-02-15T22:39:50 IST" finished-at="2022-02-15T22:39:50 IST">
     <groups>
       <group name="regressionTest">
-        <method signature="ContactTest.modifyContactTest()[pri:0, instance:com.crm.contactTest.ContactTest@523884b2]" name="modifyContactTest" class="com.crm.contactTest.ContactTest"/>
-        <method signature="OrganizationTest.modifyOrgTest()[pri:0, instance:com.crm.orgTest.OrganizationTest@3e6fa38a]" name="modifyOrgTest" class="com.crm.orgTest.OrganizationTest"/>
+        <method signature="ContactTest.deleteContactTest()[pri:0, instance:com.crm.contactTest.ContactTest@26653222]" name="deleteContactTest" class="com.crm.contactTest.ContactTest"/>
+        <method signature="ContactTest.modifyContactTest()[pri:0, instance:com.crm.contactTest.ContactTest@26653222]" name="modifyContactTest" class="com.crm.contactTest.ContactTest"/>
+        <method signature="OrganizationTest.deleteOrgTest()[pri:0, instance:com.crm.orgTest.OrganizationTest@1bce4f0a]" name="deleteOrgTest" class="com.crm.orgTest.OrganizationTest"/>
+        <method signature="OrganizationTest.modifyOrgTest()[pri:0, instance:com.crm.orgTest.OrganizationTest@1bce4f0a]" name="modifyOrgTest" class="com.crm.orgTest.OrganizationTest"/>
       </group> <!-- regressionTest -->
-      <group name="smokeTest">
-        <method signature="ContactTest.createContactTest()[pri:0, instance:com.crm.contactTest.ContactTest@523884b2]" name="createContactTest" class="com.crm.contactTest.ContactTest"/>
-        <method signature="OrganizationTest.createOrgTest()[pri:0, instance:com.crm.orgTest.OrganizationTest@3e6fa38a]" name="createOrgTest" class="com.crm.orgTest.OrganizationTest"/>
-      </group> <!-- smokeTest -->
     </groups>
-    <test name="Test" duration-ms="174" started-at="2022-01-25T17:02:20 IST" finished-at="2022-01-25T17:02:20 IST">
+    <test name="Test" duration-ms="47" started-at="2022-02-15T22:39:50 IST" finished-at="2022-02-15T22:39:50 IST">
       <class name="com.crm.contactTest.ContactTest">
-        <test-method status="PASS" signature="createContactTest()[pri:0, instance:com.crm.contactTest.ContactTest@523884b2]" name="createContactTest" duration-ms="26" started-at="2022-01-25T17:02:20 IST" finished-at="2022-01-25T17:02:20 IST">
+        <test-method status="PASS" signature="deleteContactTest()[pri:0, instance:com.crm.contactTest.ContactTest@26653222]" name="deleteContactTest" duration-ms="4" started-at="2022-02-15T22:39:50 IST" finished-at="2022-02-15T22:39:50 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createContactTest -->
-        <test-method status="PASS" signature="modifyContactTest()[pri:0, instance:com.crm.contactTest.ContactTest@523884b2]" name="modifyContactTest" duration-ms="0" started-at="2022-01-25T17:02:20 IST" finished-at="2022-01-25T17:02:20 IST">
+        </test-method> <!-- deleteContactTest -->
+        <test-method status="PASS" signature="modifyContactTest()[pri:0, instance:com.crm.contactTest.ContactTest@26653222]" name="modifyContactTest" duration-ms="0" started-at="2022-02-15T22:39:50 IST" finished-at="2022-02-15T22:39:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- modifyContactTest -->
       </class> <!-- com.crm.contactTest.ContactTest -->
       <class name="com.crm.orgTest.OrganizationTest">
-        <test-method status="PASS" signature="createOrgTest()[pri:0, instance:com.crm.orgTest.OrganizationTest@3e6fa38a]" name="createOrgTest" duration-ms="2" started-at="2022-01-25T17:02:20 IST" finished-at="2022-01-25T17:02:20 IST">
+        <test-method status="PASS" signature="deleteOrgTest()[pri:0, instance:com.crm.orgTest.OrganizationTest@1bce4f0a]" name="deleteOrgTest" duration-ms="0" started-at="2022-02-15T22:39:50 IST" finished-at="2022-02-15T22:39:50 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createOrgTest -->
-        <test-method status="PASS" signature="modifyOrgTest()[pri:0, instance:com.crm.orgTest.OrganizationTest@3e6fa38a]" name="modifyOrgTest" duration-ms="0" started-at="2022-01-25T17:02:20 IST" finished-at="2022-01-25T17:02:20 IST">
+        </test-method> <!-- deleteOrgTest -->
+        <test-method status="PASS" signature="modifyOrgTest()[pri:0, instance:com.crm.orgTest.OrganizationTest@1bce4f0a]" name="modifyOrgTest" duration-ms="0" started-at="2022-02-15T22:39:50 IST" finished-at="2022-02-15T22:39:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- modifyOrgTest -->
