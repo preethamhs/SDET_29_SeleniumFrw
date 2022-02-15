@@ -15,7 +15,7 @@ public class ContactTest {
 	}
 	@Test(groups = "regressionTest")
 	public void deleteContactTest() {
-		System.out.println("execute deleteContactTest(REGRESSION)");
+		System.out.println("execute deleteContactTest(REGRESSION)- hello");
 	}
 
 }
